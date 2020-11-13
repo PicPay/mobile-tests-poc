@@ -1,5 +1,9 @@
----
+# Default profile
 default: -p json -p android
-ios: -p json DEVICE_TYPE=ios
-android: -p json DEVICE_TYPE=android
+
+# Saucelabs profile
+ios: -p json PLATFORM=ios
+android: -p json PLATFORM=android
 json: -f json -o log/report.json -f pretty
+# ios:     -t @ui ENV=sauce PLATFORM=ios
+# android: -t @ui ENV=sauce PLATFORM=android
