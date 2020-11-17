@@ -3,6 +3,8 @@ Gemfile.lock
 
 # PNG and files
 log/
-files/
+files/*.apk
+files/*.ipa
+files/*.app
 *.png
 *.lock
